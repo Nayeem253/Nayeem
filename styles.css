@@ -1,0 +1,95 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+body {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4);
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu Icon */
+.menu div {
+    width: 25px;
+    height: 4px;
+    background: white;
+    margin: 5px;
+}
+
+/* Sections */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+section:hover {
+    transform: scale(1.05);
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Hover Effect for Image */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.buy-btn {
+    display: block;
+    width: 120px;
+    margin: 15px auto;
+    padding: 12px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+.buy-btn:hover {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
